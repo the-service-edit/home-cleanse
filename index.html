@@ -2,7 +2,8 @@
 <html lang="en-AU">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<script>["gesturestart","gesturechange","gestureend"].forEach(function(t){document.addEventListener(t,function(e){e.preventDefault()},{passive:false})});document.addEventListener("touchmove",function(e){if(e.touches.length>1)e.preventDefault()},{passive:false});</script>
 <title>Home Cleanse</title>
 <meta name="robots" content="noindex,nofollow">
 <meta name="theme-color" content="#332d27">
@@ -46,6 +47,7 @@ h1,h2,h3{text-wrap:balance}.stats strong,.countdown h1,.outheadline h1{font-vari
 .opening.solo{grid-template-columns:1fr}.bottomgrid.solo{grid-template-columns:1fr}
 .circle-photo.nophoto{display:grid;place-items:center;background:linear-gradient(140deg,#6a594a,#3c332b);color:#e5d7c6}.circle-photo.nophoto>svg{opacity:.65}
 .roommap{background-image:linear-gradient(140deg,#5b4c3e,#2f2822)}
+html,body{overflow-x:hidden;overscroll-behavior:none;-webkit-text-size-adjust:100%;text-size-adjust:100%}body{touch-action:pan-y;-webkit-tap-highlight-color:transparent}.roomnav,.photo-strip{touch-action:pan-x pan-y}input,select,textarea{font-size:16px}
 </style>
 </head>
 <body>
